@@ -39,7 +39,8 @@ def login_meta_mask(driver, credentials):
         driver.find_element(By.XPATH, '//*[@id="confirm-password"]').send_keys(credentials["password"])
         driver.find_element(By.XPATH, '//*[@id="app-content"]/div/div[2]/div/div/form/div[7]/div').click()
         driver.find_element(By.XPATH, '//*[@id="app-content"]/div/div[2]/div/div/form/button').click()
-       
+        time.sleep(5)
+
         driver.find_element(By.XPATH, '//*[@id="app-content"]/div/div[2]/div/div/button').click()
         return True
 
