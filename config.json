@@ -1,0 +1,6 @@
+{
+    "meta_mask_credentials": {
+        "secret_phrase": "your_secret_phrase",
+        "password": "your_password"
+    }
+}
