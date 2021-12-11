@@ -1,6 +1,10 @@
 {
     "meta_mask_credentials": {
-        "secret_phrase": "your_secret_phrase",
-        "password": "your_password"
+        "secret_phrase": "secret_phrase",
+        "password": "password"
+    },
+
+    "opensea_credentials": {
+        "collection_name": "collection_name"
     }
 }
